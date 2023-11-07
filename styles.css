@@ -35,12 +35,16 @@ h1{
     justify-content: space-between;
     align-items: baseline;
 }
+.navbar{
+    padding: 1rem 0;
+}
 
 /* Hero section */
 .hero-container{
     display: flex;
     justify-content: space-between;
-    padding: 3rem 0;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
     flex:1;
 }
 img{
@@ -70,6 +74,7 @@ img{
 #information p{
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 3rem;
 }
 .card-container{
     display: flex;
@@ -90,6 +95,7 @@ img{
 /* Testimonial section */
 #testimonial{
     background-color: #e5e7eb;
+    margin-bottom: 3rem;
 }
 #testimonial h5{
     margin-top: -10px;
@@ -105,11 +111,14 @@ img{
 }
 
 /* Call-to-action section */
+#call-to-action{
+    margin-bottom: 3rem;
+}
 .cta-container{
     display: flex;
     justify-content: space-between;
     background-color: #3882f6;
-    padding: 30px 120px;
+    padding: 15px 120px;
     border-radius: 5px;
     align-items: center;
 }
