@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    padding: 0 15%;
+}
+ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+/* Navbar */
+.header{
+    background-color: #1F2937;
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+.navbar,ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
