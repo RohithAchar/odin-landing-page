@@ -60,3 +60,29 @@ img{
     color: #f9faf8;
     font-weight: 700;
 }
+
+/* Information section */
+#information h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+#information p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width:120px;
+    text-align: center;
+}
+.box{
+    height: 120px;
+    width: 120px;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+}
