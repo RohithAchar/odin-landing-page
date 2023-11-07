@@ -103,3 +103,29 @@ img{
     display: flex;
     flex-direction: column;
 }
+
+/* Call-to-action section */
+.cta-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding: 30px 120px;
+    border-radius: 5px;
+    align-items: center;
+}
+#call-to-action button{
+    background-color: #3882f6;
+    width:120px;
+    height:40px;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+#footer{
+    text-align: center;
+    background-color: #1F2937;
+    padding: 1rem 0;
+    color: #f9faf8;
+}
