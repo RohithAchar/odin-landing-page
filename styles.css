@@ -32,3 +32,13 @@ ul li a{
 }
 
 /* Hero section */
+img{
+    background-color: #e5e7eb;
+    width:1000px;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    flex:1;
+}
