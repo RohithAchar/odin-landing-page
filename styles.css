@@ -16,8 +16,9 @@ ul li a{
     font-size: 18px;
 }
 /* Navbar */
-.header{
+#header{
     background-color: #1F2937;
+    margin:0;
 }
 .logo{
     color: #f9faf8;
@@ -29,3 +30,5 @@ ul li a{
     justify-content: space-between;
     align-items: baseline;
 }
+
+/* Hero section */
