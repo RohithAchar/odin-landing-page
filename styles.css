@@ -86,3 +86,20 @@ img{
     border: 3px solid #3882f6;
     border-radius: 5px;
 }
+
+/* Testimonial section */
+#testimonial{
+    background-color: #e5e7eb;
+}
+#testimonial h5{
+    margin-top: -10px;
+    align-self: flex-end;
+}
+#testimonial p{
+    font-style: italic;
+}
+.test-content{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
